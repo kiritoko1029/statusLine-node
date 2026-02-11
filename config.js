@@ -117,7 +117,7 @@ module.exports = {
       },
       content: (ctx) => {
         const cost = ctx.cost?.total_cost_usd || 0;
-        return `$${cost.toFixed(4)}`;
+        return `$${cost.toFixed(2)}`;
       },
       style: {
         fg: 214,      // Yellow

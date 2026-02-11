@@ -5,7 +5,9 @@
 
 为 [Claude Code](https://claude.ai/code) 打造的高性能、可自定义状态栏工具。
 
-![Statusline Preview](https://raw.githubusercontent.com/user-attachments/assets/statusline-preview.png)
+> **灵感来源**: [CCometixLine](https://github.com/Haleclipse/CCometixLine)
+
+![Statusline Preview](https://github.com/kiritoko1029/picx-images-hosting/raw/master/statusline-preview.png.2yyvl9kss9.webp)
 
 ## 功能特性
 
