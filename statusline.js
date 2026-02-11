@@ -36,7 +36,8 @@ async function main(deps = {
     }
 
     // 2. Resolve and load config
-    const configDir = deps.cwd;
+    // 使用 __dirname 确保配置文件路径相对于 statusline.js 的位置
+    const configDir = __dirname;
     const theme = ctx.theme;
     const configPath = resolveConfigPath({ configDir, theme });
 

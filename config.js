@@ -84,7 +84,7 @@ module.exports = {
                      (usage.cache_creation_input_tokens || 0) +
                      (usage.cache_read_input_tokens || 0);
         const size = cw.context_window_size || 200000;
-        return `${usage}k ${Math.round((total / size) * 100)}%`;
+        return `${(total/1000).toFixed(2)}k ${Math.round((total / size) * 100)}%`;
       },
       style: {
         fg: (ctx) => {
